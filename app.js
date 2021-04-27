@@ -3,6 +3,6 @@ http.createServer(function (req, res) {
   res.write('<html><head></head><body>');
   res.write('Welcome to the Test Web Application!'+'<br/>');
   res.write('===================================='+'<br/>');
-  res.write('</body></html>');
+  res.write('<br/></body></html>');
   res.end();
 }).listen(8080, '0.0.0.0');
